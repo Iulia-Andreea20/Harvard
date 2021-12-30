@@ -1,0 +1,47 @@
+<!DOCTYPE html> <!-- Specificarea versiunii de html utilizata -->     
+<html> <!-- Delimiteaza continutul html -->
+    <!-- <html> </html> => tags -->
+    <head>
+        <title>Hello!</title>
+        <!-- <link rel="stylesheet" href="style.css">    rel = relationship -->
+        <style>
+            .baz { 
+                /* #id to name an id in style 
+                id = for unique elements
+                class = for multiple elements
+                .class to name a class in style*/
+                color: blue;
+            }
+            h1 {
+                color: red;
+            }
+            #foo {
+                color: green;
+            }
+
+            /*Priority of style
+            1. inline --> style in the line
+            2. id --> unicitate
+            3. class --> multiplr rlrmrnts
+            4. type --> type of element (h1, p, table)
+            */
+        </style>
+    </head>
+    <body>
+        <h1 id = "foo" >Welcome here </h1>
+        <h1 class ="baz" > Ana este aici</h1>
+        <p> hello world</p>
+    </body>
+</html>
+
+<!--
+    
+        html
+        /   \
+    head    body
+    /           \
+title       Hello,world!
+  /
+Hello!
+
+-->
